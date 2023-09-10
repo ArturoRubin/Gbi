@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo{
+    justify-self: center;
+}
+
+.header-links{
+    align-self: center;
+}
+
+.header-links a{
+    font-size: .8rem;
+    text-decoration: none;
+    padding-left: 5px;
+    color: #FFFCDD;
+}
+
+.links{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 30vh; 
+    place-items: center;
+}
+
+.links a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #FFFCDD;
+}
+
+.link-design-1{
+    border-radius: 5px;
+    padding: 10px 35px 10px 35px;
+    background-color: orange;
+}
+
+.link-design-2{
+    border-radius: 5px;
+    padding: 10px 45px 10px 45px;
+    background-color: orange;
+}
+
+
